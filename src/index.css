@@ -1,0 +1,150 @@
+.to-do-list {
+  font-family: 'Roboto', Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-button {
+  background-color: #4caf50;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+.delete-button {
+  background-color: #f44336;
+}
+
+.delete-button:hover {
+  background-color: #e53935;
+}
+
+.move-button {
+  background-color: #2196f3;
+}
+
+.move-button:hover {
+  background-color: #1e88e5;
+}
+
+.complete-button {
+  background-color: #ffeb3b;
+}
+
+.complete-button:hover {
+  background-color: #fdd835;
+}
+
+.edit-button {
+  background-color: #ffa500;
+}
+.save-button,
+.cancel-button {
+  background-color: #1e6e31;
+  padding: 6px 12px; 
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  background-color: #8c8a8a; 
+}
+
+.save-button {
+  margin-left: 10px;
+}
+
+.cancel-button {
+  margin-left: 10px;
+}
+
+
+.edit-button:hover {
+  background-color: #ff8c00;
+}
+
+input[type="text"] {
+  font-size: 1.2rem;
+  padding: 10px;
+  width: calc(100% - 22px);
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus {
+  border-color: #4caf50;
+}
+
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+li:hover {
+  transform: scale(1.02);
+}
+
+.text {
+  flex: 1;
+  color: #555;
+  margin-right: 10px;
+}
+
+.completed .text {
+  text-decoration: line-through;
+  color: #bbb;
+}
+
+.delete-button, .move-button, .complete-button, .edit-button {
+  padding: 8px 12px;
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
